@@ -19,7 +19,6 @@ class ContactManagerTest {
                         contact.getPhoneNumber().equals("0758916877"))
                 .findAny()
                 .isPresent());
-   
     }
 
     @Test
